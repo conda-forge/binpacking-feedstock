@@ -1,5 +1,5 @@
 {% set name = "binpacking" %}
-{% set version = "1.4.3" %}
+{% set version = "1.4.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 048f22ef3785389d04f0857025cef00f4ca141cc5af91c33153a9bc6a100a1f8
+  sha256: 1c317effa24f6345c58b674be2d76a7911f67ea8cbd688233993b18762698527
 
 build:
   number: 0
