@@ -1,5 +1,5 @@
 {% set name = "binpacking" %}
-{% set version = "1.5.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4935a4a2ca3949c6bf870e8a2c00dce03e345177d879d61a736e4d7cd17f89ee
+  sha256: c3e95c6cdc661d3d00e48da5f317a111531267069f2b4a288d74401b83779ffd
 
 build:
-  number: 1
+  number: 0
   entry_points:
     - binpacking = binpacking.binpacking_binary:main
   noarch: python
